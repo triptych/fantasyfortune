@@ -69,7 +69,7 @@ generateFortune = () => {
 document.getElementById('share').addEventListener('click',function(event){
     event.preventDefault();
     prefix = "My Fantasy Fortune: ";
-    link = " https://Fantasy-Fortune--triptych.repl.co"; 
+    link = " https://fantasy-fortune.netlify.com"; 
     hashtag = " #myfantasyfortune";
     if(typeof theFortune != 'undefined'){
     window.open("https://twitter.com/intent/tweet?text="+encodeURIComponent(prefix + theFortune +link + hashtag ));
