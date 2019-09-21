@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<!-- 
+      fairy icon from https://www.iconfinder.com/icons/2913099/character_cute_elf_fairy_fantasy_magic_rpg_icon by https://www.iconfinder.com/Chanut-is under creative commons - https://creativecommons.org/licenses/by/3.0/ 
+
+      background from http://www.grsites.com/archive/textures/view/source=archive/id=2150/
+
+      -->
+</head>
+
+<body>
+	<h2 class="colorcycle">Fantasy Fortune</h2>
+	<p>Click the fairy below to generate a fantasy style "fortune" for you today!</p>
+	<img id="fairy" src="iconfinder_Fairy_2913099.svg" class="clickable fairy" title="be gentle!"/>
+    <div>
+    <textarea id="fortune" rows="10" cols="40" class="fortunebox"></textarea>
+    <button id='share'>Share this fortune on Twitter</button>
+</div>
+
+   
+   <small> Created by <a href="http://andreww.xyz">Andrew Wooldridge</a> (<a href="https://repl.it/@triptych/Fantasy-Fortune">v0.02</a>) </small>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rita/1.3.94/rita.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
